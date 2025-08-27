@@ -15,13 +15,9 @@ import {
 } from "react-icons/fi";
 
 import {
-  appetiteProBold,
-  appetiteProHeavy,
   appetiteProMedium,
-  quicksandBold,
   quicksandMedium,
   quicksandRegular,
-  quicksandSemiBold,
 } from "@/lib/fonts";
 
 export default function Header() {
@@ -30,6 +26,7 @@ export default function Header() {
   const [cartItems, setCartItems] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
+  // setCartItems(3); // Simulación de 3 items en el carrito
   // Efecto para detectar scroll
   useEffect(() => {
     const handleScroll = () => {

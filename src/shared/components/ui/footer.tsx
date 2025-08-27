@@ -4,14 +4,7 @@ import {
   quicksandRegular,
   quicksandMedium,
 } from "@/lib/fonts";
-import Link from "next/link";
-import {
-  FiMapPin,
-  FiClock,
-  FiFacebook,
-  FiInstagram,
-  FiTwitter,
-} from "react-icons/fi";
+import { FiMapPin, FiClock, FiFacebook, FiInstagram } from "react-icons/fi";
 import Image from "next/image";
 
 export default function Footer() {
