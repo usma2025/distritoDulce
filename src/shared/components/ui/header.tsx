@@ -69,7 +69,7 @@ export default function Header() {
     {
       name: "Contacto",
       icon: <FiMail className="text-xl" />,
-      path: "/contacto",
+      path: "/contact",
     },
   ];
 
